@@ -1,0 +1,21 @@
+# API de Gerenciamento de Tarefas
+
+Este é o projeto da API RESTful para gerenciamento de tarefas, desenvolvido como parte da atividade prática da disciplina de Desenvolvimento Web Back-end da UNINTER.
+
+## Funcionalidades:
+- Criar tarefa
+- Consultar todas as tarefas
+- Consultar tarefa por ID
+- Atualizar tarefa
+- Remover tarefa
+
+## Tecnologias:
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- MySQL
+
+## Como Rodar:
+1. Certifique-se de ter o MySQL configurado e rodando.
+2. Atualize as configurações de conexão com o banco de dados em `src/main/resources/application.properties`.
+3. Execute a aplicação Spring Boot.
